@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício: Criando seu primeiro Form</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga Dos Astronautas</h3>
+    <form action="">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" name="birthday" id="birthday" />
+
+        <label for="photo">Foto:</label>
+        <input type="file" id="photo" name="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="nationality">Nacionalidade</label>
+        <select name="nationality" id="nationality">
+          <option value=""></option>
+          <option value="American">Americano</option>
+          <option value="Brazilian">Brasileiro</option>
+          <option value="Argentina">Argentino</option>
+        </select>
+        - Genero:
+        <label for="famale">F</label>
+        <input type="radio" name="gender" id="famale" value="famale" />
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" value="male" />
+      </div>
+      <div>
+        <p>Suas Principais Qualidades</p>
+        <label for="int">| Inteligencia</label>
+        <input type="checkbox" name="int" id="int" /> |
+        <label for="resi">Resiliencia</label>
+        <input type="checkbox" name="resi" id="resi" /> |
+        <label for="pfisi">Preparo Fisico</label>
+        <input type="checkbox" name="pfisi" id="pfisi" /> |
+        <label for="edu">Educação</label>
+        <input type="checkbox" name="edu" id="edu" />
+      </div>
+      <br />
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          cols="40"
+          rows="10"
+          placeholder="Porque Voce Gostaia de Ser Astronauta?"
+        ></textarea>
+      </div>
+      <div>
+        <input type="submit" value="criar" />
+      </div>
+    </form>
+  </body>
+</html>

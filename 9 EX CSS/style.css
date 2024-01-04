@@ -1,0 +1,25 @@
+body {
+  background-color: #2c3e50;
+  font-family: "Kablammo", cursiva;
+}
+
+#H1branco {
+  color: rgb(255, 255, 255);
+}
+
+#H2amarelo {
+  color: #f1c40f;
+}
+
+#H2preto {
+  background-color: #f1c40f;
+  border: 2px solid;
+}
+
+#libranco {
+  color: rgb(255, 255, 255);
+}
+
+#livermelho {
+  color: #e74c3c;
+}

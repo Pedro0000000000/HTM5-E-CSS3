@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Sono", sans-serif;
+  color: #beadad;
+  font-weight: 600;
+  background-color: black;
+}
+
+.imag1 {
+  width: 2560px;
+  right: auto;
+}
+
+@media (max-width: 2560px) {
+  .div1 {
+    text-align: center;
+  }
+
+  .texth1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .imag1 {
+    width: 100%;
+    right: auto;
+    text-align: center;
+  }
+
+  .texp {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1440px) {
+  .div1 {
+    text-align: center;
+  }
+
+  .texth1 {
+    font-size: 37px;
+    text-align: center;
+  }
+
+  .imag1 {
+    width: 100%;
+    right: auto;
+    text-align: center;
+  }
+
+  .texp {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .div1 {
+    text-align: center;
+  }
+
+  .texth1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .imag1 {
+    width: 100%;
+    right: auto;
+    text-align: center;
+  }
+
+  .texp {
+    font-size: 19px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .texth1 {
+    font-size: 31px;
+    text-align: center;
+  }
+
+  .imag1 {
+    width: 100%;
+    right: auto;
+  }
+
+  .texp {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .texth1 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .imag1 {
+    width: 100%;
+    right: auto;
+  }
+
+  .texp {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .texth1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .texp {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .texth1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .texp {
+    font-size: 14px;
+    text-align: center;
+  }
+}

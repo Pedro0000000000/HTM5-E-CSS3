@@ -1,0 +1,394 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body {
+  /* font-family: "Sono", sans-serif; */
+  color: #beadad;
+  font-weight: 600;
+}
+hr {
+  border-color: #beadad;
+}
+
+.container {
+  background-color: #000000;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgvikings {
+  width: 90px;
+  right: auto;
+}
+
+.header {
+  width: 100%;
+  min-height: 40px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 8px 15px;
+}
+
+.headerbtngroup {
+  display: flex;
+  gap: 8px;
+}
+
+.navbtn {
+  font-size: 18px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: #beadad;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.navbtn:hover {
+  border-bottom: 2px solid #beadad;
+}
+
+.sectiontitle {
+  font-size: 26px;
+  font-family: "Sono", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #726969;
+}
+
+.sectiondescription {
+  text-align: center;
+  color: #beadad;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "maincontend siderbarcontent";
+  padding: 20px;
+  flex: 1 0 auto;
+}
+
+.maincardimg {
+  width: 100%;
+  height: 180px;
+  border-radius: 15px;
+}
+
+.siderbarcardimg {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.categorycard {
+  width: 280px;
+  height: 380px;
+  /* border: 2px solid transparent; */
+  border-radius: 15px;
+  /* transition: 0.5s; */
+  cursor: pointer;
+}
+
+.categorycard:hover {
+  border: none;
+  box-shadow: 20px 20px 10px #beadad93;
+  /* box-shadow: 30px 30px 10px #8a1e1e; */
+  /* transition: box-shadow 1s ease-in-out; */
+  /* transition: 0.5s; */
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    box-shadow: 20px 20px 10px #beadad93;
+  }
+  25% {
+    box-shadow: 20px 20px 10px #beadad93;
+  }
+  50% {
+    box-shadow: 20px 20px 10px rgba(0, 255, 0, 0.295);
+  }
+  75% {
+    box-shadow: 20px 20px 10px rgba(0, 0, 255, 0.315);
+  }
+  100% {
+    box-shadow: 20px 20px 10px rgba(255, 0, 255, 0.274);
+  }
+}
+
+.maincontend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 15px;
+  grid-template-areas: maincontend;
+}
+
+.maincategorycardtitle {
+  padding: 6px;
+}
+
+.maincategorycarddescription {
+  padding: 6px;
+}
+
+.p10 {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.siderbarcontent {
+  background-color: #beadad;
+  color: black;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  grid-template-areas: siderbarcontent;
+  gap: 20px;
+}
+
+.sidebarcard {
+  width: 75%;
+  border-radius: 15px;
+  cursor: pointer;
+  /* padding-top: 10px; */
+}
+
+.sidebarcard:hover {
+  border: none;
+  /* box-shadow: 20px 20px 10px #beadad93; */
+  /* box-shadow: 30px 30px 10px #8a1e1e; */
+  /* transition: box-shadow 1s ease-in-out; */
+  /* transition: 0.5s; */
+  animation: colorChang1 5s infinite;
+}
+
+@keyframes colorChang1 {
+  0% {
+    box-shadow: 20px 20px 10px #05050593;
+  }
+  25% {
+    box-shadow: 20px 20px 10px #00000093;
+  }
+  50% {
+    box-shadow: 20px 20px 10px rgba(0, 255, 0, 0.295);
+  }
+  75% {
+    box-shadow: 20px 20px 10px rgba(0, 0, 255, 0.315);
+  }
+  100% {
+    box-shadow: 20px 20px 10px rgba(255, 0, 255, 0.274);
+  }
+}
+
+.sidebarcardtitle {
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+}
+
+.logofooter {
+  width: 300px;
+  height: auto;
+}
+
+.footer {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.divfooter {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.p11 {
+  color: rgb(0, 0, 0);
+}
+
+.footeranchor {
+  color: #beadad;
+  text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+  .imgvikings {
+    width: 150px;
+    right: auto;
+  }
+
+  .navbtn {
+    font-size: 20px;
+  }
+
+  .sectiontitle {
+    font-size: 23px;
+  }
+
+  .sectiondescription {
+    font-size: 18px;
+  }
+
+  .maincategorycarddescription {
+    font-size: 18px;
+  }
+
+  .footeranchor {
+    font-size: 18px;
+  }
+
+  .logofooter {
+    width: 350px;
+  }
+}
+
+@media (max-width: 630px) {
+  .gridcontainer {
+    grid-template-areas:
+      "maincontend"
+      "siderbarcontent";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .siderbarcontent {
+    min-width: auto;
+  }
+
+  .maincontend {
+    row-gap: 15px;
+  }
+
+  /* .maincontend {
+    padding-bottom: 10px;
+  } */
+
+  .divfooter {
+    /* display: flex;
+    flex-direction: column-reverse; */
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 530px) {
+  .header {
+    justify-content: center;
+  }
+
+  .logofooter {
+    width: 70%;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    justify-content: center;
+  }
+
+  .imgvikings {
+    width: 45%;
+  }
+
+  .navbtn {
+    font-size: 23px;
+  }
+
+  .sectiontitle {
+    font-size: 25px;
+  }
+
+  .sectiondescription {
+    font-size: 23px;
+  }
+  /* .maincontend {
+    row-gap: 20px;
+  } */
+
+  .maincategorycardtitle {
+    font-size: 22px;
+  }
+
+  .maincategorycarddescription {
+    font-size: 21px;
+  }
+
+  .sidebarcardtitle {
+    font-size: 22px;
+  }
+
+  .footeranchor {
+    font-size: 20px;
+  }
+
+  /* .sectiontitle {
+    padding: 25px;
+  }
+
+  .sectiondescription {
+    font-size: 20px;
+  }
+
+  .logofooter {
+    width: 70%;
+  } */
+}
+
+@media (max-width: 320px) {
+  .imgvikings {
+    width: 45%;
+  }
+
+  .navbtn {
+    font-size: 20px;
+  }
+
+  .sectiontitle {
+    font-size: 24px;
+  }
+
+  .sectiondescription {
+    font-size: 22px;
+  }
+
+  .maincategorycardtitle {
+    font-size: 22px;
+  }
+
+  .maincategorycarddescription {
+    font-size: 21px;
+  }
+
+  .sidebarcardtitle {
+    font-size: 22px;
+  }
+
+  .footeranchor {
+    font-size: 20px;
+  }
+}

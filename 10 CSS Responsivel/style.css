@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Sono", sans-serif;
+  color: #beadad;
+  font-weight: 600;
+  background-color: black;
+}
+
+.texth1 {
+  color: beadad;
+  text-align: center;
+}
+
+.imag1 {
+  width: 765px;
+  right: 400px;
+}
+
+.texp {
+  color: #beadad;
+}
+
+@media (max-width: 1400px) {
+  .div1 {
+    text-align: center;
+  }
+  .texth1 {
+    font-size: 190%;
+    text-align: center;
+  }
+  .imag1 {
+    right: auto;
+  }
+  .texp {
+    font-size: 110%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .div1 {
+    text-align: center;
+  }
+  .texth1 {
+    font-size: 190%;
+    text-align: center;
+  }
+  .imag1 {
+    width: 100%;
+    right: auto;
+  }
+  .texp {
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 595px) {
+  .div1 {
+    text-align: center;
+  }
+  .texth1 {
+    font-size: 160%;
+    text-align: center;
+  }
+  .imag1 {
+    width: 100%;
+    right: auto;
+  }
+  .texp {
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .div1 {
+    text-align: center;
+  }
+  .texth1 {
+    font-size: 160%;
+    text-align: center;
+  }
+  .imag1 {
+    width: 100%;
+    right: auto;
+  }
+  .texp {
+    font-size: 100%;
+    text-align: center;
+  }
+}
